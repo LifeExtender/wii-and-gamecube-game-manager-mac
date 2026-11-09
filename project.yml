@@ -15,8 +15,8 @@ configFiles:
 
 settings:
   base:
-    MARKETING_VERSION: "1.0.0"
-    CURRENT_PROJECT_VERSION: "1"
+    MARKETING_VERSION: "1.0.1"
+    CURRENT_PROJECT_VERSION: "2"
     SWIFT_VERSION: "5.0"
 
 targets:
@@ -44,9 +44,9 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.los.wiigamemanager
-        PRODUCT_NAME: Wii Game Manager
+        PRODUCT_NAME: Wii and GameCube Game Manager
         GENERATE_INFOPLIST_FILE: YES
-        INFOPLIST_KEY_CFBundleDisplayName: Wii Game Manager
+        INFOPLIST_KEY_CFBundleDisplayName: Wii and GameCube Game Manager
         INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.utilities
         INFOPLIST_KEY_NSHumanReadableCopyright: GPL v2 or later. Disc tools by Wiimms ISO Tools.
         ENABLE_APP_SANDBOX: NO

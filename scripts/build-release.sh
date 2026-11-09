@@ -12,5 +12,5 @@ xcodebuild -project WiiGameManager.xcodeproj -scheme WiiGameManager -configurati
 
 mkdir -p dist
 ditto -c -k --sequesterRsrc --keepParent \
-    "build/Build/Products/Release/Wii Game Manager.app" "dist/Wii-Game-Manager.zip"
-echo "Built dist/Wii-Game-Manager.zip"
+    "build/Build/Products/Release/Wii and GameCube Game Manager.app" "dist/Wii-and-GameCube-Game-Manager.zip"
+echo "Built dist/Wii-and-GameCube-Game-Manager.zip"

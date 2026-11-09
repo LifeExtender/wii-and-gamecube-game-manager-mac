@@ -83,6 +83,6 @@ struct WelcomeView: View {
         .offset(y: appeared ? 0 : 10)
         .onAppear { withAnimation(Motion.entrance(after: 0.05)) { appeared = true } }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .navigationTitle("Wii Game Manager")
+        .navigationTitle("Wii and GameCube Game Manager")
     }
 }

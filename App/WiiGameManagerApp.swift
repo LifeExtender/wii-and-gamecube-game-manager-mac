@@ -31,7 +31,7 @@ struct WiiGameManagerApp: App {
     private var model: AppModel { delegate.model }
 
     var body: some Scene {
-        Window("Wii Game Manager", id: "main") {
+        Window("Wii and GameCube Game Manager", id: "main") {
             RootView()
                 .environment(model)
                 .frame(minWidth: 1040, minHeight: 640)

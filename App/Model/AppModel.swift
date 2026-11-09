@@ -40,7 +40,7 @@ final class AppModel {
 
     static let supportFolder: URL = {
         let base = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
-        return base.appendingPathComponent("Wii Game Manager", isDirectory: true)
+        return base.appendingPathComponent("Wii and GameCube Game Manager", isDirectory: true)
     }()
 
     init() {

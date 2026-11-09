@@ -1,4 +1,4 @@
-# Wii Game Manager for Mac
+# Wii and GameCube Game Manager for Mac
 
 A native Mac app for managing Wii and GameCube backups: browse them by cover, read what's on each
 disc, convert between formats, and set up a USB drive that USB Loader GX, WiiFlow and Nintendont
@@ -9,7 +9,7 @@ It began as a macOS rebuild of the Windows tool Wii Game Manager 1.5.
 
 ## Download
 
-Get **Wii-Game-Manager.zip** from the [latest release](../../releases/latest), unzip it and move
+Get **Wii-and-GameCube-Game-Manager.zip** from the [latest release](../../releases/latest), unzip it and move
 the app to Applications. It's self-contained, so there's nothing else to install. It needs macOS 15
 or later, on Apple Silicon or Intel.
 
@@ -20,7 +20,7 @@ need to do this once.
 To skip that step, install from Terminal instead:
 
 ```sh
-curl -fL https://github.com/LifeExtender/wii-game-manager-mac/releases/latest/download/Wii-Game-Manager.zip -o /tmp/wgm.zip
+curl -fL https://github.com/LifeExtender/wii-and-gamecube-game-manager-mac/releases/latest/download/Wii-and-GameCube-Game-Manager.zip -o /tmp/wgm.zip
 ditto -x -k /tmp/wgm.zip /Applications
 ```
 
