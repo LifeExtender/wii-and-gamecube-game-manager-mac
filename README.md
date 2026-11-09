@@ -7,6 +7,8 @@ comes from [GameTDB](https://www.gametdb.com) when the app needs it.
 
 It began as a macOS rebuild of the Windows tool Wii Game Manager 1.5.
 
+![The library, showing a game's cover, disc and details](docs/screenshots/library.png)
+
 ## Download
 
 Get **Wii-and-GameCube-Game-Manager.zip** from the [latest release](../../releases/latest), unzip it and move
@@ -40,6 +42,16 @@ ditto -x -k /tmp/wgm.zip /Applications
 - **Formatting:** FAT32 (recommended) or WBFS.
 - **Artwork and game info:** covers, 3D covers, disc art, synopsis, controllers and more.
 - **System, Light and Dark** appearance.
+
+## Screenshots
+
+| Details read from the disc | Adding games to a drive |
+| --- | --- |
+| ![The Disc tab, showing region, required IOS and storage](docs/screenshots/disc-details.png) | ![Choosing which games to copy to a USB drive](docs/screenshots/add-games.png) |
+
+| A connected game drive | Dark appearance |
+| --- | --- |
+| ![A USB drive's games and free space](docs/screenshots/drive.png) | ![The library in dark appearance](docs/screenshots/dark.png) |
 
 ## Formatting safety
 
