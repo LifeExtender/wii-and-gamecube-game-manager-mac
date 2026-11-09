@@ -115,7 +115,7 @@ public struct DiskService: Sendable {
             return
         }
         if errno == EPERM {
-            throw DiskRefused("macOS blocked raw access to this drive. Add Wii Game Manager under System Settings > Privacy & Security > Full Disk Access, then try again.")
+            throw DiskRefused("macOS blocked raw access to this drive. Add Wii and GameCube Game Manager under System Settings > Privacy & Security > Full Disk Access, then try again.")
         }
     }
 

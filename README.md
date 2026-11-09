@@ -1,13 +1,15 @@
-# Wii Game Manager for Mac
+# Wii and GameCube Game Manager for Mac
 
 A native Mac app for managing Wii and GameCube backups: browse them by cover, read what's on each
 disc, convert between formats, and set up a USB drive that USB Loader GX, WiiFlow and Nintendont
 can load from. No games, keys or artwork are included. You bring your own backups, and artwork
 comes from [GameTDB](https://www.gametdb.com) when the app needs it.
 
+![The library, showing a game's cover, disc and details](docs/screenshots/library.png)
+
 ## Download
 
-Get **Wii-Game-Manager.zip** from the [latest release](../../releases/latest), unzip it and move
+Get **Wii-and-GameCube-Game-Manager.zip** from the [latest release](../../releases/latest), unzip it and move
 the app to Applications. It's self-contained, so there's nothing else to install. It needs macOS 15
 or later, on Apple Silicon or Intel.
 
@@ -18,7 +20,7 @@ need to do this once.
 To skip that step, install from Terminal instead:
 
 ```sh
-curl -fL https://github.com/LifeExtender/wii-game-manager-mac/releases/latest/download/Wii-Game-Manager.zip -o /tmp/wgm.zip
+curl -fL https://github.com/LifeExtender/wii-and-gamecube-game-manager-mac/releases/latest/download/Wii-and-GameCube-Game-Manager.zip -o /tmp/wgm.zip
 ditto -x -k /tmp/wgm.zip /Applications
 ```
 
@@ -38,6 +40,16 @@ ditto -x -k /tmp/wgm.zip /Applications
 - **Formatting:** FAT32 (recommended) or WBFS.
 - **Artwork and game info:** covers, 3D covers, disc art, synopsis, controllers and more.
 - **System, Light and Dark** appearance.
+
+## Screenshots
+
+| Details read from the disc | Adding games to a drive |
+| --- | --- |
+| ![The Disc tab, showing region, required IOS and storage](docs/screenshots/disc-details.png) | ![Choosing which games to copy to a USB drive](docs/screenshots/add-games.png) |
+
+| A connected game drive | Dark appearance |
+| --- | --- |
+| ![A USB drive's games and free space](docs/screenshots/drive.png) | ![The library in dark appearance](docs/screenshots/dark.png) |
 
 ## Formatting safety
 
