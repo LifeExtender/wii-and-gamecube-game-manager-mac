@@ -1,0 +1,12 @@
+// Builds are ad-hoc signed by default, so no Apple account is needed.
+//
+// To sign with your own identity, create Config/Signing.local.xcconfig (ignored by git):
+//   CODE_SIGN_STYLE = Automatic
+//   CODE_SIGN_IDENTITY = Apple Development
+//   DEVELOPMENT_TEAM = YOURTEAMID
+
+CODE_SIGN_STYLE = Manual
+CODE_SIGN_IDENTITY = -
+DEVELOPMENT_TEAM =
+
+#include? "Signing.local.xcconfig"

@@ -1,0 +1,14 @@
+wit and wwt are from Wiimms ISO Tools v3.05a r8638 by Dirk Clemens, licensed under the
+GNU General Public License, version 2 or later. See gpl-2.0.txt.
+
+Corresponding source is attached to each release of this project, and available upstream:
+https://download.wiimm.de/source/wiimms-iso-tools/wiimms-iso-tools.source-3.05a.txz
+https://github.com/Wiimm/wiimms-iso-tools
+
+The binaries come from:
+https://wit.wiimm.de/download/wit-v3.05a-r8638-mac.tar.gz
+SHA-256: 670fd1920eb0390ecdc2553942df71f0ced43c63c8e83588a23705b569d25213
+
+The published universal binaries carry a broken arm64 code signature, so macOS refuses to run
+them, and lipo cannot thin them. scripts/fetch-tools.sh extracts each architecture by its
+fat-header offset, re-signs it and joins them again. The code is otherwise unchanged.
