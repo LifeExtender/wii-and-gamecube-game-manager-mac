@@ -5,8 +5,6 @@ disc, convert between formats, and set up a USB drive that USB Loader GX, WiiFlo
 can load from. No games, keys or artwork are included. You bring your own backups, and artwork
 comes from [GameTDB](https://www.gametdb.com) when the app needs it.
 
-It began as a macOS rebuild of the Windows tool Wii Game Manager 1.5.
-
 ## Download
 
 Get **Wii-Game-Manager.zip** from the [latest release](../../releases/latest), unzip it and move
